@@ -3,7 +3,7 @@
     "short_name": "Porfolio",
     "start_url": "index.html",
     "display": "fullscreen",
-    "background_color": "#797C7F",
+    "background_color": "#2B2B2B",
     "theme_color": "#000",
     "description": "Porfolio",
     "icons": [{
