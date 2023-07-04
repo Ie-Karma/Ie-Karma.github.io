@@ -1,4 +1,4 @@
-const cacheName = "Mario Galego Cano-Porfolio-0.1";
+const cacheName = "Mario Galego Cano-Porfolio-0.2";
 const contentToCache = [
     "Build/Ie-Karma.github.io.loader.js",
     "Build/Ie-Karma.github.io.framework.js",
