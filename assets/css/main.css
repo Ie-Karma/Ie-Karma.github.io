@@ -212,18 +212,31 @@ body{background-color:#0c0c0c;font-size:14px;line-height:1.6;font-family:"Montse
     height: 200px;
     text-decoration: none;
     color: #fff;
-    border: 5px solid #0f33ff;
+    border: 3px solid #ffffff;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     margin: 10px;
 }
 
-.about--options>a:nth-child(1){background-image:url("../img/projects/plumvr.png")}
+.about--options > a:hover {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    text-decoration: none;
+    color: #fff;
+    border: 3px solid #0f33ff;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.about--options>a:nth-child(1){background-image:url("../img/projects/plumvr.png");}
 .about--options>a:nth-child(2){background-image:url("../img/projects/thelastarcade.png")}
 .about--options>a:nth-child(3){background-image:url("../img/projects/anulax.png")}
 .about--options>a:hover h3{bottom:-50px}
-.about--options h3{position:absolute;bottom:-38px;left:10px;font-size:16px;text-transform:uppercase;-webkit-transition:bottom .2s ease-in-out,left .2s ease-in-out;transition:bottom .2s ease-in-out,left .2s ease-in-out}
+.about--options h3{position:absolute;bottom:-42px;left:10px;font-size:16px;text-transform:uppercase;-webkit-transition:bottom .2s ease-in-out,left .2s ease-in-out;transition:bottom .2s ease-in-out,left .2s ease-in-out}
 @media (max-width: 767px){.about--banner{height:305px}
 .about--banner::before{top:0;left:125px}
 .about--banner::after{top:35px;left:260px}
