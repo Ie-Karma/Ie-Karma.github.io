@@ -106,7 +106,7 @@ body{background-color:#212121;font-size:14px;line-height:1.6;font-family:"Montse
 .intro--banner{position:relative;height:380px;text-align: center;}
 .intro--banner::before{content:"";position:absolute;bottom:20px;left:-15px;right:0;height:2px;background-color:#282828}
 .intro--banner::after{content:"";position:absolute;bottom:18px;left:0;width:30px;height:4px;background-color:#0f33ff}
-.intro--banner h1{position:relative;font-size:68px;font-weight:900;line-height:1;z-index:1;bottom: 100px}
+.intro--banner h1{position:relative;font-size:68px;font-weight:900;line-height:1;z-index:1;bottom: 10px}
 .intro--banner button{position:relative;padding:5px 17px 5px 12px;font-weight:700;text-transform:uppercase;background-color:transparent;border:none}
 .intro--banner button .btn-background{position:absolute;top:0;left:23px;right:0;height:100%;background-color:#0f33ff;z-index:-1;-webkit-transition:left .2s ease-in-out;transition:left .2s ease-in-out}
 .intro--banner button:hover .btn-background{left:0}
@@ -120,7 +120,7 @@ body{background-color:#212121;font-size:14px;line-height:1.6;font-family:"Montse
 .intro--options h3{font-size:16px;text-transform:uppercase}
 .intro--options p{margin-bottom:0}
 @media (max-width: 900px){.intro--banner{height:380px}
-.intro--banner h1{font-size:55px}
+.intro--banner h1{font-size:20px}
 .intro--banner img{width:430px}
 .intro--options>a{margin-right:30px}
 .intro--options>a:last-child{margin-right:0}
